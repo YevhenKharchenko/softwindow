@@ -4,15 +4,13 @@
 }
 
 .gameplay-bg-wrapper {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 60px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
     padding-top: 80px;
-    padding-bottom: 80px;
     max-width: 1440px;
   }
 }
@@ -23,21 +21,11 @@
 }
 
 .gameplay-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+  border-bottom: 1px solid #00e3fd;
+  padding-bottom: 60px;
 
   @include media(desktop) {
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    gap: 128px;
-  }
-}
-
-.gameplay-text-wrapper {
-  @include media(desktop) {
-    max-width: 544px;
+    padding-bottom: 80px;
   }
 }
 
@@ -46,24 +34,66 @@
   }
 }
 
-.gameplay-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #003c66;
-
+.gameplay-subtitle {
   @include media(desktop) {
-    font-size: 18px;
   }
 }
 
-.gameplay-img {
-  margin-left: auto;
-  margin-right: auto;
+.gameplay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 
   @include media(desktop) {
-    min-width: 384px;
-    margin: 0;
+    flex-direction: row;
+  }
+}
+
+.gameplay-list-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 343px;
+
+  @include media(desktop) {
+    max-width: 352px;
+  }
+}
+
+.gameplay-item-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.3;
+  color: #ddb437;
+  margin-bottom: 4px;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.gameplay-item-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ddb437;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.gameplay-item-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+
+  @include media(desktop) {
+    font-size: 18px;
   }
 }
