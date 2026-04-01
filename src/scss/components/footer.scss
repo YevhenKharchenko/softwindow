@@ -1,5 +1,5 @@
 .footer {
-  background: #0061a4;
+  background: #000;
 
   @include media(desktop) {
   }
@@ -35,37 +35,6 @@
   }
 }
 
-.footer-title-wrapper {
-  @include media(desktop) {
-    max-width: max-content;
-  }
-}
-
-.footer-title {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  color: #fff;
-  margin-bottom: 24px;
-
-  @include media(desktop) {
-    font-size: 48px;
-  }
-}
-
-.footer-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #fff;
-
-  @include media(desktop) {
-    font-size: 18px;
-  }
-}
-
 .footer-nav-list {
   display: flex;
   flex-direction: column;
@@ -84,11 +53,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #fff;
+  color: #00e3fd;
   max-width: max-content;
 
   @include media(desktop) {
@@ -113,11 +82,11 @@
 }
 
 .footer-link {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #fff;
+  color: #00e3fd;
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
@@ -130,12 +99,12 @@
 }
 
 .footer-bottom-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 11px;
   line-height: 1.5;
   text-align: right;
-  color: #fff;
+  color: #00e3fd;
 
   @include media(desktop) {
     font-size: 12px;
