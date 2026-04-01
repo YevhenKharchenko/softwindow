@@ -1,0 +1,74 @@
+.contact-section {
+  @include media(desktop) {
+  }
+}
+
+.contact-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.contact-container {
+  @include media(desktop) {
+  }
+}
+
+.contact-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.contact-title {
+  margin-bottom: 64px;
+
+  @include media(desktop) {
+    margin-bottom: 80px;
+  }
+}
+
+.contact-cta-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #003c66;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.contact-email-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #003c66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: max-content;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.contact-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #003c66;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,132 @@
+.faq-section {
+  @include media(desktop) {
+  }
+}
+
+.faq-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.faq-container {
+  @include media(desktop) {
+  }
+}
+
+.faq-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.faq-title {
+  @include media(desktop) {
+  }
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-list-item {
+  box-shadow: 0 2px 6px 0 rgba(54, 54, 54, 0.15);
+  background: #e5ecf1;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s ease-in-out;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-top-text-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-btn-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #003c66;
+  text-align: left;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.faq-toggle-symbol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 28px;
+  height: 28px;
+  margin-left: auto;
+  transition: transform 0.3s ease-in-out;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-icon {
+  @include media(desktop) {
+  }
+}
+
+.faq-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #003c66;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.is-visible {
+  margin-top: 16px;
+  max-height: 500px;
+  opacity: 1;
+
+  @include media(desktop) {
+  }
+}
+
+.faq-list-item.faq-open .faq-toggle-symbol {
+  transform: rotate(180deg);
+}
+
+.faq-list-item.faq-open {
+}
+
+.faq-list-item.faq-open .faq-btn-text {
+}

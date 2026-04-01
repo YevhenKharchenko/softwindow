@@ -1,0 +1,111 @@
+.progression-section {
+  @include media(desktop) {
+  }
+}
+
+.progression-bg-wrapper {
+  padding-top: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+    position: relative;
+  }
+}
+
+.progression-container {
+  @include media(desktop) {
+  }
+}
+
+.progression-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @include media(desktop) {
+    display: block;
+  }
+}
+
+.progression-text-wrapper {
+  @include media(desktop) {
+    max-width: 544px;
+  }
+}
+
+.progression-title {
+  @include media(desktop) {
+  }
+}
+
+.progression-list-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #003c66;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.progression-list {
+  list-style-type: disc;
+  padding-left: 25px;
+  color: #003c66;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.progression-list-item {
+  @include media(desktop) {
+  }
+}
+
+.progression-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #003c66;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.progression-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #003c66;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.progression-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    min-width: 324px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 263px;
+  }
+}
